@@ -7988,6 +7988,13 @@ strapi-generate-api@3.0.0-beta.12:
     lodash "^4.17.11"
     pluralize "^7.0.0"
 
+strapi-generate-api@3.0.0-next.17:
+  version "3.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.0.0-next.17.tgz#4527cfc26e6457df2b5fa3147a9141ffd7a28c04"
+  dependencies:
+    lodash "^4.17.11"
+    pluralize "^7.0.0"
+
 strapi-generate-controller@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-generate-controller/-/strapi-generate-controller-3.0.0-beta.12.tgz#f81f985fd328bc2860aaa3269c7f9cb65f860f4c"
@@ -8043,9 +8050,38 @@ strapi-generate@3.0.0-beta.12:
     reportback "^2.0.2"
     strapi-utils "3.0.0-beta.12"
 
+strapi-generate@3.0.0-next.17:
+  version "3.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.0.0-next.17.tgz#dd53f59ff526223ea80e8b1e021b7e1ef3fb21c4"
+  dependencies:
+    async "^2.6.2"
+    fs-extra "^8.0.1"
+    lodash "^4.17.11"
+    reportback "^2.0.2"
+    strapi-utils "3.0.0-next.17"
+
 strapi-helper-plugin@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.0.0-beta.12.tgz#89bbca65034cf4a12e42bb2471d2a71fc5daf043"
+  dependencies:
+    bootstrap "^4.0.0-alpha.6"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "^4.17.5"
+    moment "^2.16.0"
+    react "^16.0.0"
+    react-datetime "^2.16.3"
+    react-dom "^16.0.0"
+    react-intl "^2.8.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "^5.0.0"
+    whatwg-fetch "^2.0.3"
+
+strapi-helper-plugin@3.0.0-next.17:
+  version "3.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.0.0-next.17.tgz#fe6e635cdc8491f95bb9afcfe53e1c17a6da1640"
   dependencies:
     bootstrap "^4.0.0-alpha.6"
     classnames "^2.2.5"
@@ -8109,9 +8145,9 @@ strapi-plugin-content-manager@3.0.0-beta.12:
     strapi-utils "3.0.0-beta.12"
     styled-components "^4.2.0"
 
-strapi-plugin-content-type-builder@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-beta.12.tgz#7c9972e6e3859a028a68faafb80e039386345319"
+strapi-plugin-content-type-builder@3.0.0-next.17:
+  version "3.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-next.17.tgz#fd78ae1cb39f16c91cb72049831fd62f195b71a6"
   dependencies:
     classnames "^2.2.6"
     fs-extra "^7.0.0"
@@ -8130,9 +8166,9 @@ strapi-plugin-content-type-builder@3.0.0-beta.12:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^3.0.1"
-    strapi-generate "3.0.0-beta.12"
-    strapi-generate-api "3.0.0-beta.12"
-    strapi-helper-plugin "3.0.0-beta.12"
+    strapi-generate "3.0.0-next.17"
+    strapi-generate-api "3.0.0-next.17"
+    strapi-helper-plugin "3.0.0-next.17"
 
 strapi-plugin-email@3.0.0-beta.12:
   version "3.0.0-beta.12"
@@ -8226,6 +8262,18 @@ strapi-provider-upload-local@3.0.0-beta.12:
 strapi-utils@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-beta.12.tgz#daf0e11e71e4f0b7b88d7aea2eb3c325557b8108"
+  dependencies:
+    commander "^2.20.0"
+    joi-json "^2.1.0"
+    knex "^0.16.5"
+    lodash "^4.17.11"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+
+strapi-utils@3.0.0-next.17:
+  version "3.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-next.17.tgz#d5dabde10a0c79647069f0219d73e6471a1999e2"
   dependencies:
     commander "^2.20.0"
     joi-json "^2.1.0"
