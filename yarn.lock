@@ -8062,21 +8062,28 @@ strapi-helper-plugin@3.0.0-beta.12:
     reactstrap "^5.0.0"
     whatwg-fetch "^2.0.3"
 
-strapi-hook-bookshelf@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-hook-bookshelf/-/strapi-hook-bookshelf-3.0.0-beta.12.tgz#1079c6dfca00af20b9e51b33fe7a0ccfe9d8aca2"
+strapi-hook-bookshelf@3.0.0-next.17:
+  version "3.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/strapi-hook-bookshelf/-/strapi-hook-bookshelf-3.0.0-next.17.tgz#f5719c6a601cea7f932ebfb9428785aa2a1dc1ea"
   dependencies:
     bookshelf "^0.14.2"
     inquirer "^6.3.1"
     lodash "^4.17.11"
     pluralize "^7.0.0"
     rimraf "^2.6.3"
-    strapi-hook-knex "3.0.0-beta.12"
-    strapi-utils "3.0.0-beta.12"
+    strapi-hook-knex "3.0.0-next.17"
+    strapi-utils "3.0.0-next.17"
 
 strapi-hook-knex@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-hook-knex/-/strapi-hook-knex-3.0.0-beta.12.tgz#f07724163923648fcb61cfb6fede827213500975"
+  dependencies:
+    knex "^0.16.5"
+    lodash "^4.17.11"
+
+strapi-hook-knex@3.0.0-next.17:
+  version "3.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/strapi-hook-knex/-/strapi-hook-knex-3.0.0-next.17.tgz#a117660c9fdfb148a5cdfdd602cdae7313dfc7d3"
   dependencies:
     knex "^0.16.5"
     lodash "^4.17.11"
@@ -8226,6 +8233,18 @@ strapi-provider-upload-local@3.0.0-beta.12:
 strapi-utils@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-beta.12.tgz#daf0e11e71e4f0b7b88d7aea2eb3c325557b8108"
+  dependencies:
+    commander "^2.20.0"
+    joi-json "^2.1.0"
+    knex "^0.16.5"
+    lodash "^4.17.11"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+
+strapi-utils@3.0.0-next.17:
+  version "3.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-next.17.tgz#d5dabde10a0c79647069f0219d73e6471a1999e2"
   dependencies:
     commander "^2.20.0"
     joi-json "^2.1.0"
