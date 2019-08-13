@@ -8062,6 +8062,26 @@ strapi-helper-plugin@3.0.0-beta.12:
     reactstrap "^5.0.0"
     whatwg-fetch "^2.0.3"
 
+strapi-helper-plugin@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.0.0-next.19.tgz#4361530335574bf331a3eb9f18ed09e5a92d3d0d"
+  dependencies:
+    bootstrap "^4.0.0-alpha.6"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "^4.17.5"
+    moment "^2.16.0"
+    react "^16.0.0"
+    react-datetime "^2.16.3"
+    react-dom "^16.0.0"
+    react-intl "^2.8.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "^5.0.0"
+    styled-components "^4.3.1"
+    whatwg-fetch "^2.0.3"
+
 strapi-hook-bookshelf@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-hook-bookshelf/-/strapi-hook-bookshelf-3.0.0-beta.12.tgz#1079c6dfca00af20b9e51b33fe7a0ccfe9d8aca2"
@@ -8185,9 +8205,9 @@ strapi-plugin-upload@3.0.0-beta.12:
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
-strapi-plugin-users-permissions@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-beta.12.tgz#aabfaa48fe573b71b2725bfa9b8c1c5aa19f4b08"
+strapi-plugin-users-permissions@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-next.19.tgz#c644559397b8370bd43a29ef88d8d701c8c9e6fe"
   dependencies:
     bcryptjs "^2.4.3"
     classnames "^2.2.6"
@@ -8208,8 +8228,8 @@ strapi-plugin-users-permissions@3.0.0-beta.12:
     reactstrap "^5.0.0"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.0.0-beta.12"
-    strapi-utils "3.0.0-beta.12"
+    strapi-helper-plugin "3.0.0-next.19"
+    strapi-utils "3.0.0-next.19"
     uuid "^3.1.0"
 
 strapi-provider-email-sendmail@3.0.0-beta.12:
@@ -8226,6 +8246,18 @@ strapi-provider-upload-local@3.0.0-beta.12:
 strapi-utils@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-beta.12.tgz#daf0e11e71e4f0b7b88d7aea2eb3c325557b8108"
+  dependencies:
+    commander "^2.20.0"
+    joi-json "^2.1.0"
+    knex "^0.16.5"
+    lodash "^4.17.11"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+
+strapi-utils@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-next.19.tgz#3c5775c783f59df0f583f65fe7a786639d5e8edb"
   dependencies:
     commander "^2.20.0"
     joi-json "^2.1.0"
@@ -8430,7 +8462,7 @@ style-loader@^0.23.1:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
 
-styled-components@^4.2.0:
+styled-components@^4.2.0, styled-components@^4.3.1:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.3.2.tgz#4ca81918c812d3006f60ac5fdec7d6b64a9509cc"
   dependencies:
