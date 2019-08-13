@@ -622,6 +622,12 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
+"@babel/runtime@^7.0.0":
+  version "7.5.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5":
   version "7.5.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.4.tgz#cb7d1ad7c6d65676e66b47186577930465b5271b"
@@ -713,6 +719,13 @@
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
+
+"@sindresorhus/slugify@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/slugify/-/slugify-0.9.1.tgz#892ad24d70b442c0a14fe519cb4019d59bc5069f"
+  dependencies:
+    escape-string-regexp "^1.0.5"
+    lodash.deburr "^4.1.0"
 
 "@types/bluebird@^3.5.26":
   version "3.5.27"
@@ -3243,6 +3256,10 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
+fn-name@~2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/fn-name/-/fn-name-2.0.1.tgz#5214d7537a4d06a4a301c0cc262feb84188002e7"
+
 for-in@^0.1.3:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-0.1.8.tgz#d8773908e31256109952b1fdb9b3fa867d2775e1"
@@ -4921,6 +4938,10 @@ locate-path@^3.0.0:
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
+
+lodash.deburr@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/lodash.deburr/-/lodash.deburr-4.1.0.tgz#ddb1bbb3ef07458c0177ba07de14422cb033ff9b"
 
 lodash.includes@^4.3.0:
   version "4.3.0"
@@ -6698,6 +6719,10 @@ prop-types@^15.5.0, prop-types@^15.5.4, prop-types@^15.5.7, prop-types@^15.5.8, 
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
+property-expr@^1.5.0:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-1.5.1.tgz#22e8706894a0c8e28d58735804f6ba3a3673314f"
+
 proto-list@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/proto-list/-/proto-list-1.2.4.tgz#212d5bfe1318306a420f6402b8e26ff39647a849"
@@ -6937,6 +6962,17 @@ react-popper@^0.8.3:
   dependencies:
     popper.js "^1.12.9"
     prop-types "^15.6.0"
+
+react-redux@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.0.2.tgz#34b280a3482aaf60e7d4a504b1295165cbe6b86a"
+  dependencies:
+    "@babel/runtime" "^7.4.3"
+    hoist-non-react-statics "^3.3.0"
+    invariant "^2.2.4"
+    loose-envify "^1.4.0"
+    prop-types "^15.7.2"
+    react-is "^16.8.6"
 
 react-redux@^5.1.1:
   version "5.1.1"
@@ -7988,6 +8024,13 @@ strapi-generate-api@3.0.0-beta.12:
     lodash "^4.17.11"
     pluralize "^7.0.0"
 
+strapi-generate-api@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-generate-api/-/strapi-generate-api-3.0.0-next.19.tgz#87e8e56813403a0e0dbb498eff8e57831194fb81"
+  dependencies:
+    lodash "^4.17.11"
+    pluralize "^7.0.0"
+
 strapi-generate-controller@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-generate-controller/-/strapi-generate-controller-3.0.0-beta.12.tgz#f81f985fd328bc2860aaa3269c7f9cb65f860f4c"
@@ -8043,6 +8086,16 @@ strapi-generate@3.0.0-beta.12:
     reportback "^2.0.2"
     strapi-utils "3.0.0-beta.12"
 
+strapi-generate@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-generate/-/strapi-generate-3.0.0-next.19.tgz#f54ea2cd340e5a33943d637ec4f8660227eab44b"
+  dependencies:
+    async "^2.6.2"
+    fs-extra "^8.0.1"
+    lodash "^4.17.11"
+    reportback "^2.0.2"
+    strapi-utils "3.0.0-next.19"
+
 strapi-helper-plugin@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.0.0-beta.12.tgz#89bbca65034cf4a12e42bb2471d2a71fc5daf043"
@@ -8060,6 +8113,26 @@ strapi-helper-plugin@3.0.0-beta.12:
     react-router "^5.0.0"
     react-router-dom "^5.0.0"
     reactstrap "^5.0.0"
+    whatwg-fetch "^2.0.3"
+
+strapi-helper-plugin@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.0.0-next.19.tgz#4361530335574bf331a3eb9f18ed09e5a92d3d0d"
+  dependencies:
+    bootstrap "^4.0.0-alpha.6"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "^4.17.5"
+    moment "^2.16.0"
+    react "^16.0.0"
+    react-datetime "^2.16.3"
+    react-dom "^16.0.0"
+    react-intl "^2.8.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "^5.0.0"
+    styled-components "^4.3.1"
     whatwg-fetch "^2.0.3"
 
 strapi-hook-bookshelf@3.0.0-beta.12:
@@ -8109,10 +8182,11 @@ strapi-plugin-content-manager@3.0.0-beta.12:
     strapi-utils "3.0.0-beta.12"
     styled-components "^4.2.0"
 
-strapi-plugin-content-type-builder@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-beta.12.tgz#7c9972e6e3859a028a68faafb80e039386345319"
+strapi-plugin-content-type-builder@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-content-type-builder/-/strapi-plugin-content-type-builder-3.0.0-next.19.tgz#7b7ffee6047722cbf9ab25d71988f70b1cf906d4"
   dependencies:
+    "@sindresorhus/slugify" "^0.9.1"
     classnames "^2.2.6"
     fs-extra "^7.0.0"
     immutable "^3.8.2"
@@ -8122,7 +8196,7 @@ strapi-plugin-content-type-builder@3.0.0-beta.12:
     react "^16.0.0"
     react-dom "^16.0.0"
     react-intl "^2.8.0"
-    react-redux "^7.0.2"
+    react-redux "7.0.2"
     react-router "^5.0.0"
     react-router-dom "^5.0.0"
     react-transition-group "^2.5.0"
@@ -8130,9 +8204,10 @@ strapi-plugin-content-type-builder@3.0.0-beta.12:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^3.0.1"
-    strapi-generate "3.0.0-beta.12"
-    strapi-generate-api "3.0.0-beta.12"
-    strapi-helper-plugin "3.0.0-beta.12"
+    strapi-generate "3.0.0-next.19"
+    strapi-generate-api "3.0.0-next.19"
+    strapi-helper-plugin "3.0.0-next.19"
+    yup "^0.27.0"
 
 strapi-plugin-email@3.0.0-beta.12:
   version "3.0.0-beta.12"
@@ -8226,6 +8301,18 @@ strapi-provider-upload-local@3.0.0-beta.12:
 strapi-utils@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-beta.12.tgz#daf0e11e71e4f0b7b88d7aea2eb3c325557b8108"
+  dependencies:
+    commander "^2.20.0"
+    joi-json "^2.1.0"
+    knex "^0.16.5"
+    lodash "^4.17.11"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+
+strapi-utils@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-next.19.tgz#3c5775c783f59df0f583f65fe7a786639d5e8edb"
   dependencies:
     commander "^2.20.0"
     joi-json "^2.1.0"
@@ -8430,7 +8517,7 @@ style-loader@^0.23.1:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
 
-styled-components@^4.2.0:
+styled-components@^4.2.0, styled-components@^4.3.1:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.3.2.tgz#4ca81918c812d3006f60ac5fdec7d6b64a9509cc"
   dependencies:
@@ -8511,6 +8598,10 @@ switchback@^2.0.1:
 symbol-observable@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+
+synchronous-promise@^2.0.6:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/synchronous-promise/-/synchronous-promise-2.0.9.tgz#b83db98e9e7ae826bf9c8261fd8ac859126c780a"
 
 table@^5.2.3:
   version "5.4.1"
@@ -8713,6 +8804,10 @@ toposort-class@^1.0.1:
 toposort@^1.0.0:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/toposort/-/toposort-1.0.7.tgz#2e68442d9f64ec720b8cc89e6443ac6caa950029"
+
+toposort@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/toposort/-/toposort-2.0.2.tgz#ae21768175d1559d48bef35420b2f4962f09c330"
 
 tough-cookie@>=0.12.0:
   version "3.0.1"
@@ -9224,3 +9319,14 @@ yauzl@^2.4.2:
 ylru@^1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ylru/-/ylru-1.2.1.tgz#f576b63341547989c1de7ba288760923b27fe84f"
+
+yup@^0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/yup/-/yup-0.27.0.tgz#f8cb198c8e7dd2124beddc2457571329096b06e7"
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    fn-name "~2.0.1"
+    lodash "^4.17.11"
+    property-expr "^1.5.0"
+    synchronous-promise "^2.0.6"
+    toposort "^2.0.2"
