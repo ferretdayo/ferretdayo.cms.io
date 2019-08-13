@@ -8062,6 +8062,26 @@ strapi-helper-plugin@3.0.0-beta.12:
     reactstrap "^5.0.0"
     whatwg-fetch "^2.0.3"
 
+strapi-helper-plugin@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.0.0-next.19.tgz#4361530335574bf331a3eb9f18ed09e5a92d3d0d"
+  dependencies:
+    bootstrap "^4.0.0-alpha.6"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "^4.17.5"
+    moment "^2.16.0"
+    react "^16.0.0"
+    react-datetime "^2.16.3"
+    react-dom "^16.0.0"
+    react-intl "^2.8.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "^5.0.0"
+    styled-components "^4.3.1"
+    whatwg-fetch "^2.0.3"
+
 strapi-hook-bookshelf@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-hook-bookshelf/-/strapi-hook-bookshelf-3.0.0-beta.12.tgz#1079c6dfca00af20b9e51b33fe7a0ccfe9d8aca2"
@@ -8141,9 +8161,9 @@ strapi-plugin-email@3.0.0-beta.12:
     strapi-provider-email-sendmail "3.0.0-beta.12"
     strapi-utils "3.0.0-beta.12"
 
-strapi-plugin-settings-manager@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-beta.12.tgz#0fbe0e7ab0f4af9da45ab0098a14f436d689096a"
+strapi-plugin-settings-manager@3.0.0-next.19:
+  version "3.0.0-next.19"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-settings-manager/-/strapi-plugin-settings-manager-3.0.0-next.19.tgz#6bb4df847950b46edb7a3b363cf5536224f9695a"
   dependencies:
     classnames "^2.2.6"
     immutable "^3.8.2"
@@ -8161,7 +8181,7 @@ strapi-plugin-settings-manager@3.0.0-beta.12:
     redux "^4.0.1"
     reselect "^3.0.1"
     shelljs "^0.7.8"
-    strapi-helper-plugin "3.0.0-beta.12"
+    strapi-helper-plugin "3.0.0-next.19"
 
 strapi-plugin-upload@3.0.0-beta.12:
   version "3.0.0-beta.12"
@@ -8430,7 +8450,7 @@ style-loader@^0.23.1:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
 
-styled-components@^4.2.0:
+styled-components@^4.2.0, styled-components@^4.3.1:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.3.2.tgz#4ca81918c812d3006f60ac5fdec7d6b64a9509cc"
   dependencies:
