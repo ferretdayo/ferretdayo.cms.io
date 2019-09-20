@@ -8134,12 +8134,12 @@ strapi-plugin-content-type-builder@3.0.0-beta.12:
     strapi-generate-api "3.0.0-beta.12"
     strapi-helper-plugin "3.0.0-beta.12"
 
-strapi-plugin-email@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.0.0-beta.12.tgz#134bb0be97bdeeb941a38632c10eb2bee9866b96"
+strapi-plugin-email@3.0.0-next.24:
+  version "3.0.0-next.24"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.0.0-next.24.tgz#57e65a5adb1a9ca64d2de174c76f608975c3d3db"
   dependencies:
-    strapi-provider-email-sendmail "3.0.0-beta.12"
-    strapi-utils "3.0.0-beta.12"
+    strapi-provider-email-sendmail "3.0.0-next.24"
+    strapi-utils "3.0.0-next.24"
 
 strapi-plugin-settings-manager@3.0.0-beta.12:
   version "3.0.0-beta.12"
@@ -8212,9 +8212,9 @@ strapi-plugin-users-permissions@3.0.0-beta.12:
     strapi-utils "3.0.0-beta.12"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.0.0-beta.12.tgz#c25d790270c8a8aa7e4e75dc72b6e2e2bb1a03f2"
+strapi-provider-email-sendmail@3.0.0-next.24:
+  version "3.0.0-next.24"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.0.0-next.24.tgz#f9a453b19a1f900477cfde0e78c35a8005dc878a"
   dependencies:
     lodash "^4.17.11"
     sendmail "^1.2.0"
@@ -8226,6 +8226,18 @@ strapi-provider-upload-local@3.0.0-beta.12:
 strapi-utils@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-beta.12.tgz#daf0e11e71e4f0b7b88d7aea2eb3c325557b8108"
+  dependencies:
+    commander "^2.20.0"
+    joi-json "^2.1.0"
+    knex "^0.16.5"
+    lodash "^4.17.11"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+
+strapi-utils@3.0.0-next.24:
+  version "3.0.0-next.24"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-next.24.tgz#7b4d5668aa3ae0ca52e39144534a0afb17e0dfea"
   dependencies:
     commander "^2.20.0"
     joi-json "^2.1.0"
