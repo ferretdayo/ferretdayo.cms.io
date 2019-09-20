@@ -8235,6 +8235,18 @@ strapi-utils@3.0.0-beta.12:
     pluralize "^7.0.0"
     shelljs "^0.8.3"
 
+strapi-utils@3.0.0-next.24:
+  version "3.0.0-next.24"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-next.24.tgz#7b4d5668aa3ae0ca52e39144534a0afb17e0dfea"
+  dependencies:
+    commander "^2.20.0"
+    joi-json "^2.1.0"
+    knex "^0.16.5"
+    lodash "^4.17.11"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+
 strapi@3.0.0-beta.12:
   version "3.0.0-beta.12"
   resolved "https://registry.yarnpkg.com/strapi/-/strapi-3.0.0-beta.12.tgz#f0ec0a97c7a5094b5eedd056d386bc1caab6c7f6"
