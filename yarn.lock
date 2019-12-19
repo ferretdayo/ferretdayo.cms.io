@@ -2273,6 +2273,10 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
+date-fns@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.8.1.tgz#2109362ccb6c87c3ca011e9e31f702bc09e4123b"
+
 date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
@@ -8229,6 +8233,17 @@ strapi-utils@3.0.0-beta.12:
   dependencies:
     commander "^2.20.0"
     joi-json "^2.1.0"
+    knex "^0.16.5"
+    lodash "^4.17.11"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+
+strapi-utils@3.0.0-beta.18.2:
+  version "3.0.0-beta.18.2"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-beta.18.2.tgz#bc72df9d6baa44465b34aeff016c7f0a5c12bce5"
+  dependencies:
+    date-fns "^2.8.1"
     knex "^0.16.5"
     lodash "^4.17.11"
     pino "^4.7.1"
