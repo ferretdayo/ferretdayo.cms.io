@@ -2273,6 +2273,10 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
+date-fns@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.8.1.tgz#2109362ccb6c87c3ca011e9e31f702bc09e4123b"
+
 date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
@@ -8134,12 +8138,12 @@ strapi-plugin-content-type-builder@3.0.0-beta.12:
     strapi-generate-api "3.0.0-beta.12"
     strapi-helper-plugin "3.0.0-beta.12"
 
-strapi-plugin-email@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.0.0-beta.12.tgz#134bb0be97bdeeb941a38632c10eb2bee9866b96"
+strapi-plugin-email@3.0.0-beta.18.4:
+  version "3.0.0-beta.18.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-email/-/strapi-plugin-email-3.0.0-beta.18.4.tgz#087f0dafae203850bfc8fe9cca8df3b01d59f443"
   dependencies:
-    strapi-provider-email-sendmail "3.0.0-beta.12"
-    strapi-utils "3.0.0-beta.12"
+    strapi-provider-email-sendmail "3.0.0-beta.18.4"
+    strapi-utils "3.0.0-beta.18.4"
 
 strapi-plugin-settings-manager@3.0.0-beta.12:
   version "3.0.0-beta.12"
@@ -8212,9 +8216,9 @@ strapi-plugin-users-permissions@3.0.0-beta.12:
     strapi-utils "3.0.0-beta.12"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.0.0-beta.12:
-  version "3.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.0.0-beta.12.tgz#c25d790270c8a8aa7e4e75dc72b6e2e2bb1a03f2"
+strapi-provider-email-sendmail@3.0.0-beta.18.4:
+  version "3.0.0-beta.18.4"
+  resolved "https://registry.yarnpkg.com/strapi-provider-email-sendmail/-/strapi-provider-email-sendmail-3.0.0-beta.18.4.tgz#b9db9c42073976a412235ac22686103b15f15611"
   dependencies:
     lodash "^4.17.11"
     sendmail "^1.2.0"
@@ -8229,6 +8233,17 @@ strapi-utils@3.0.0-beta.12:
   dependencies:
     commander "^2.20.0"
     joi-json "^2.1.0"
+    knex "^0.16.5"
+    lodash "^4.17.11"
+    pino "^4.7.1"
+    pluralize "^7.0.0"
+    shelljs "^0.8.3"
+
+strapi-utils@3.0.0-beta.18.4:
+  version "3.0.0-beta.18.4"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.0.0-beta.18.4.tgz#916db397c03a81f5b966e11d422d14a1b07f8415"
+  dependencies:
+    date-fns "^2.8.1"
     knex "^0.16.5"
     lodash "^4.17.11"
     pino "^4.7.1"
